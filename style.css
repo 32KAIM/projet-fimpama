@@ -2,15 +2,32 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+
 body {
     margin: 0;
+}
+
+header {
+    background: url(image/image-back.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 550px;
+
+}
+
+.header2 {
+    height: auto;
 }
 
 .bar-navigation {
     display: flex;
     justify-content: space-between;
-    padding: 20px;
-    background-color: rgb(95, 97, 99);
+    padding: 15px;
+    background-color: rgb(66 107 126);
+}
+
+.bar-navigation a:hover {
+    background-color: rgb(11, 91, 128);
 }
 
 .bar-navigation a {
@@ -24,7 +41,7 @@ body {
     display: flex;
     justify-content: space-evenly;
     height: 50px;
-    padding-top: 12px;
+    margin-top: 12px;
 }
 
 .log {
@@ -33,6 +50,69 @@ body {
 
 .presentation {
     text-align: center;
+
+    font-size: xx-large;
+    font-weight: 800;
+    color: white;
+    margin-top: 100px;
+
+
+}
+
+.intro-menu-principale p {
+    font-size: x-large;
+    font-weight: 400;
+    text-align: start;
+
+
+}
+
+.intro-menu-principale span {
+    margin: 20px;
+    margin-bottom: 20px;
+    background-color: color(xyz-d50 0.14 0.15 0.3);
+    border-radius: 50px;
+    padding: 16px;
+    color: white;
+    font-weight: 700;
+}
+
+.intro-menu-description {
+    margin-top: 100px;
+}
+
+.intro-menu-description p {
+    font-size: x-large;
+    font-weight: 400;
+    text-align: start;
+
+
+}
+
+.intro-menu-invite {
+    margin-top: 100px;
+    font-size: x-large;
+    font-weight: 400;
+    text-align: start;
+
+}
+
+.menu-principale {
+    display: flex;
+    margin-top: 50px;
+}
+
+.side-bar1 {
+    margin: 20px;
+    margin-left: 30px;
+}
+
+.side-bar1 .img {
+    margin-top: 100px;
+}
+
+.side-bar1 .img2 {
+    margin-top: 100px;
 }
 
 .image-bloc {
@@ -43,4 +123,40 @@ body {
 .image-descprition {
     width: 400px;
     height: auto;
+}
+
+.pied {
+    background-color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.pied {
+    background-color: rgb(39, 38, 38);
+}
+
+.pied p {
+    color: white;
 }
